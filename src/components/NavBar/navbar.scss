@@ -1,0 +1,50 @@
+nav.nav {
+    position: fixed;
+    left: 0;
+    top: 0.8rem;
+    width: 4rem;
+    height: 100%;
+    border-right: 1px solid #d8d6d6;
+    background-color: #fff;
+
+    .login {
+        font-size: 18px;
+        font-weight: 600;
+        color: #313131;
+        height: 1.44rem;
+        padding: 0.48rem;
+        border-bottom: 1px solid #d8d6d6;
+
+        i {
+            color: rgb(66, 185, 131);
+            font-size: 20px;
+            padding-right: 0.6rem; 
+        }
+    }
+
+    ul>li {
+        position: relative;
+        height: 0.92rem;
+        
+        font-size: 14px;
+
+        a {
+            display: block;
+            color: #333;
+            padding: 0.28rem 0.48rem;
+
+            i {
+                font-size: 20px;           
+            }
+        }
+
+        span {
+            position: absolute;
+            top: 0.28rem;
+            left: 1.5rem;
+        }
+    }
+}
+
+
+
